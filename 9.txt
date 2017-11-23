@@ -1,0 +1,16 @@
+<?php //start of the program
+date_default_timeZone_set('Asia/Calcutta');//to set the time zone
+//calculate 60 days in the future using seconds*minute*hours*days+current time
+$inTwoMonths=60*60*24*60+time();
+//TO create cookie with name lastVisit whose value is the date and time returned by date()
+setcookie('lastVisit',date("G:i-m/d/y"),$inTwoMonths);
+if(isset($_COOKIE['lastVisit']))
+{
+$visit=$_COOKIE['lastVisit'];
+//TO print the time and date of last visit
+echo "<b>Your last visit was-",$visit;
+}
+else
+echo"<b>You have got some stale cookies!";
+
+?>

@@ -1,0 +1,7 @@
+<?php
+session_start();//a session ID is created and recorded
+//session key-value pairs are created or changed by assignments to the _SESSION array
+$_SESSION["count"]++;
+//each time the page is loaded,the count is incremented
+echo"<p>The counter is now<b>$_SESSION[count]</b></p>",
+"<p>Reload this page to increment</p>";

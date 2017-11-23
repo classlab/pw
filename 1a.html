@@ -1,0 +1,30 @@
+<? xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.1 //EN"   “http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Program 1a</title>
+<script type="text/javascript">
+var fib=0,fib1=0,fib2=1;
+var num=prompt("Enter the Value of n:");
+if(num!=null && num>0)
+{
+	document.write("<h1>" +"Fibonacci Series for "+ num +" is:"+ "</h1>");
+	if(num==1)
+		document.write("<h2>"+ fib1 +"</h2>");
+	else
+		document.write("<h2>"+ fib1 +"<br  /><br  />"+ fib2 +"</h2>");
+	
+	for(i=3;i<=num;i++)
+	{
+		fib = fib1 + fib2;
+		document.write("<h2>"+ fib +"</h2>");
+		fib1 = fib2;
+		fib2 = fib;
+	}
+}
+else
+alert("No Proper Input");
+</script>
+</head>
+<body bgcolor="yellow">
+</body>
+</html>
