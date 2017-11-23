@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet  type="text/css"  href="4a.css"?>
+<students>
+<VTU>
+<USN>1BI10CS106</USN>
+<name>SUKRUTHA</name>
+<college>BIT</college>
+<branch>CSE</branch>
+<YOJ>2010</YOJ>
+<email>sukrutha@gmail.com</email>
+</VTU>
+<VTU>
+<USN>1BI08CS123</USN>
+<name>ROSY</name>
+<college>BIT</college>
+<branch>CSE</branch>
+<YOJ>2008</YOJ>
+<email>rosy@gmail.com</email>
+</VTU> 
+<VTU>
+<USN>1DI09ME105</USN>
+<name>JHON</name>
+<college>DSIT</college>
+<branch>MECH</branch>
+<YOJ>2009</YOJ>
+<email>jhon@yahoo.com</email>
+</VTU>
+</students>
